@@ -106,3 +106,6 @@ Firefox 浏览器个性化定制指南 · 云原生实验室 https://icloudnativ
 美化网页，2023 年度最喜欢 Stylish 样式 - 奔跑中的奶酪 https://www.runningcheese.com/userstyles
 
 我的 Firefox 配置选项（Preferences） - 知乎 https://zhuanlan.zhihu.com/p/108157877?highligh=CPU
+
+扫盲 Firefox 定制——从“user.js”到“omni.ja” @ 编程随想的博客
+https://program-think.blogspot.com/2019/07/Customize-Firefox.html
