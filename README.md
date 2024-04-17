@@ -13,7 +13,7 @@ FireFox的界面全是HTML、css和JavaScript，加之其开源
 正好之前看了点HTML，算是见过一次面了
 
 HTML是一个人的肉体，css是ta的衣服，js是决定行为的想法
-## 用户自定义样式
+## 起步：用户自定义样式
 >    样式这个东西，其实我一开始接触扩展和脚本的时候就遇到过，但没有使用。
 >
  >   扩展能达到相同的效果，且用起来更方便，完全是傻瓜操作，就是点击一个又一个按钮
@@ -30,7 +30,8 @@ HTML是一个人的肉体，css是ta的衣服，js是决定行为的想法
    
 > Firefox 自 69 版本以后，为了更快的启动速度，默认不会去寻找定义样式的 userChrome.css 和 userContent.css,需要手动开启这一功能。
 1. 在 Firefox 的地址栏访问 `about:config`，打开Preferences(配置)界面，忽略警告，在接下来的界面搜索
->         toolkit.legacyUserProfileCustomizations.stylesheets
+   
+         toolkit.legacyUserProfileCustomizations.stylesheets
 
    并将这一项目设置为 `true`
 
@@ -62,9 +63,14 @@ HTML是一个人的肉体，css是ta的衣服，js是决定行为的想法
 > 
 > ![323180446-1b09d97e-3c5a-4502-a411-b2a4be32be86](https://github.com/san-ren/Firefox-customized/assets/86779955/dcd6f77c-2b09-4086-9549-3d29394e6179)
 
+列几个样式获取途径：
 
-
-
+- [FirefoxCSS Store](https://firefoxcss-store.github.io/): 已3年未增录，但其中主题有二三十个。每个主题有不同的作者，他们会更新
+- [FirefoxCSS on Reddit](https://www.reddit.com/r/FirefoxCSS/?rdt=37190&onetap_auto=true&one_tap=true)：Reddit上的一个社区，汇聚了大量的FirefoxCSS爱好者
+- [firefox-csshacks](https://github.com/MrOtherGuy/firefox-csshacks)：[MrOtherGuy](https://github.com/MrOtherGuy)收集的一些userstyle，部分css已2~4年未更新，估计也是弃用了，毕竟火狐不断添加新功能，自带的功能就没必要额外操作了
+- 另有针对特定网站的样式，可搭配样式扩展Stylus使用，网站[UserStyles.world](https://userstyles.world/explore) 或[UserStyles.org Archive](https://uso.kkx.one/)，更多内容可见[奶大的文章](https://www.runningcheese.com/userstyles)
+## 进阶：自定义用户脚本
+ JavaScript 可以添加一些浏览器没有的功能，
 
 
 
