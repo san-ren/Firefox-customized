@@ -41,6 +41,8 @@ HTML是一个人的肉体，css是ta的衣服，js是决定行为的想法
    
 > 此处可进行许多浏览器设置界面没有的设置
 >
+> 比如关闭刚才的警告，搜索
+>        
 >   详见：我的 Firefox 配置选项（Preferences） - 知乎 https://zhuanlan.zhihu.com/p/108157877?highligh=CPU
 
 2.访问 `about:support`，打开配置文件夹，新建`chrome`文件夹，以后所有的css和js都放在这里面
@@ -56,7 +58,7 @@ userChrome.css和userContent.css也是在这里，两个文件默认没有，需
 >
 > 管理用户配置文件 | Firefox 帮助 https://support.mozilla.org/zh-CN/kb/%E7%AE%A1%E7%90%86%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
 
-3. 就可以去网上下载别人分享的样式，放到chrome文件夹，重启浏览器就生效了
+3. 现在就可以去网上下载别人分享的样式，放到chrome文件夹，重启浏览器生效
 
 
 > 可以通过`about:support`页面右侧的“清除启动缓存”按钮重启，方便快捷
