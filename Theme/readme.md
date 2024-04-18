@@ -1,12 +1,12 @@
 #  记录自用主题、样式
 - [simpleMenuWizard](https://github.com/stonecrusher/simpleMenuWizard)：右键菜单精简
 - [Firefox-Rounded-Corners](https://github.com/Khalylexe/Firefox-Rounded-Theme)：大圆角，标签页卡片悬浮，新建标签页圆角
-- [Slick-Fox](https://github.com/Etesam913/slick-fox):标签小圆角、自动隐藏地址栏，3年未更新，作者也在Reddit的FirefoxCSS社区发布
-- [TYHfox](https://github.com/tyuhao/TYHfox?tab=readme-ov-file)：
--
+
+- [TYHfox](https://github.com/tyuhao/TYHfox?tab=readme-ov-file)：大圆角，标签页卡片悬浮，国人制作
+- [Firefox Plus](https://github.com/amnweb/firefox-plus)：仿Edge，2024新项目
 -
 - [MaterialFox](https://github.com/muckSponge/MaterialFox): Material 风格,标签和地址栏圆角，可用
-
+- [Slick-Fox](https://github.com/Etesam913/slick-fox):标签小圆角、自动隐藏地址栏，3年未更新，作者也在Reddit的FirefoxCSS社区发布
 
 出处：https://blog.csdn.net/pjqrmhtakgn/article/details/52798822
 /* 修改书签菜单栏 */
