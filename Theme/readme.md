@@ -8,7 +8,7 @@
 
 - [TYHfox](https://github.com/tyuhao/TYHfox?tab=readme-ov-file)：大圆角，独立标签页卡片，国人制作
 - [Firefox Plus](https://github.com/amnweb/firefox-plus)：仿Edge，2024新项目
--
+- [minimal-functional-fox](https://github.com/spencerwooo/minimal-functional-fox)：大圆角，彩色、独立标签页卡片
 - [MaterialFox](https://github.com/muckSponge/MaterialFox): Material 风格,标签和地址栏圆角
 - [Slick-Fox](https://github.com/Etesam913/slick-fox):标签小圆角、自动隐藏地址栏，3年未更新，作者也在Reddit的FirefoxCSS社区发布
 
