@@ -111,3 +111,31 @@ Firefox 浏览器个性化定制指南 · 云原生实验室 https://icloudnativ
 
 扫盲 Firefox 定制——从“user.js”到“omni.ja” @ 编程随想的博客
 https://program-think.blogspot.com/2019/07/Customize-Firefox.html
+
+2020年代仍有Firefox userChrome JS脚本（介绍、简略教程、资源） | Gary W 的中文博客(站2)
+https://garywill.github.io/chiblog/post/firefox_uc%E8%84%9A%E6%9C%AC/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
