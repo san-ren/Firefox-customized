@@ -1,0 +1,294 @@
+//https://www.cnblogs.com/shenjieblog/p/5291581.html
+
+/* 页面右键菜单 */
+#spell-no-suggestions,/*（无拼写建议）*/
+#spell-add-to-dictionary,/*添加至字典*/
+/*#spell-suggestions-separator, /*第一行分割线------------------*/
+#context-openlinkincurrent,/*打开链接*/
+/*#context-openlinkintab,/*在新标签页中打开*/
+/*#view-userscript,/*查看用户脚本源代码*/
+/*#install-userscript-sep, /*第二行分割线---------------------*/
+#context-openlink,/*在新窗口中打开*/
+#context-openselectedlinksintab,/*在新标签页中打开选定的链接[]*/
+/*#context-sep-open, /*第三行分割线-------------------*/
+#context-bookmarklink,/*将此链接加为书签*/
+/*#context-savelink,链接另存为*/
+#context-sendlink,/*发送链接*/
+#context-copyemail,/*复制邮件地址*/
+/*#context-copylink,/*复制链接地址*/
+/*#context-sep-copylink, /*第四行分割线----------------------*/
+#context-media-play,/*播放*/
+#context-media-pause,/*暂停*/
+#context-media-mute,/*静音*/
+#context-media-unmute,/*恢复声音*/
+#context-media-showcontrols,/*显示控制界面*/
+#context-media-hidecontrols,/*隐藏控制界面*/
+#context-video-fullscreen,/*全屏*/
+/*#context-media-sep-commands, /*第五行分割线-------------------*/
+/*#context-reloadimage,/*重新载入图像*/
+/*#context-viewimage,查看图片*/
+#context-viewvideo,/*查看视频*/
+/*#context-copyimage-contents,/*复制图像*/
+/*#context-copyimage,复制图片地址*/
+#context-copyvideourl,/*复制视频地址*/
+#context-copyaudiourl,/*复制音频地址*/
+/*#context-sep-copyimage, /*第六行分割线------------------*/
+/*#context-saveimage,/*图片另存为…*/
+#context-sendimage,/*发送图片…*/
+#context-setDesktopBackground,/*设为桌面背景…*/
+/*#context-viewimageinfo,/*查看图片信息*/
+#context-savevideo,/*视频另存为*/
+#context-saveaudio,/*音频另存为…*/
+#context-sendvideo,/*发送视频*/
+#context-sendaudio,/*发送音频*/
+#context-back,/*后退*/
+#context-forward,/*前进*/
+#context-reload,/*重新载入*/
+#context-stop,/*停止*/
+/*#context-sep-stop, /*第七行分割线------------------*/
+/*#context-bookmarkpage,/*将此页加为书签*/
+/*#context-savepage,/*页面另存为*/
+#context-sendpage,/*发送页面*/
+/*#context-sep-viewbgimage, /*第八行分割线--------------------*/
+#context-viewbgimage,/*查看背景图片*/
+#context-undo,/*撤销*/
+#context-sep-undo, /*第九行分割线----------------------*/
+/*#context-cut,/*剪切*/
+/*#context-copy,/*复制*/
+/*#context-paste,/*粘贴*/
+#context-delete,/*/*删除*/
+#context-sep-paste, /*第十行分割线-----------------------*/
+#context-selectall,/*全选*/
+#BatchDownload,/*批量下载...*/
+/*#BatchDownloadImage,/*批量下载所有图象...*/
+#BatchDownloadwithkey,/*批量下载使用关键字*/
+#BatchDownloadwithImageLink,/*Build Gallery With 图像链接*/
+#OpenImageLinkInTab,/*建立图库使用链接*/
+#BatchDownloadwithSelAllLink,/*Build Gallery With 所有选中的链接*/
+#OpenSelLinkInTab,/*建立图库使用选中的链接：*/
+#context-sep-selectall, /*第十一行分割线------------------*/
+#context-keywordfield,/*为此搜索添加关键字…*/
+/*#context-searchselect,/*通过 ... 搜索 &quot;...&quot;*/
+#frame-sep, /*第十二行分割线----------------------*/
+#frame,/*本帧*/
+/*#context-viewpartialsource-selection,/*查看选中部分源代码*/
+#context-viewpartialsource-mathml,/*查看 MathML 源代码*/
+#context-sep-viewsource, /*第十三行分割线----------------------*/
+/*#context-viewsource,/*查看页面源代码*/
+/*#context-viewinfo,/*查看页面信息*/
+#spell-separator, /*第十四行分割线--------------------*/
+#spell-check-enabled,/*拼写检查*/
+#spell-add-dictionaries-main,/*添加字典*/
+#spell-dictionaries,/*语言*/
+#context-sep-bidi, /*第十五行分割线--------------------------*/
+#context-bidi-text-direction-toggle,/*切换文字方向*/
+#documentDirection-swap,/*切换页面方向*/
+#autopager-context-separator1, /*第十六行分割线-------------------------------*/
+#netvideohunter-menuitem/*NetVideoHunter*/
+/*#abp-removeWhitelist-menuitem,/*Adblock Plus: 在此页面上重新启用*/
+/*#abp-frame-menuitem,/*过滤帧(Adblock Plus)*/
+/*#abp-object-menuitem,/*过滤对象(Adblock Plus)…*/
+/*#abp-media-menuitem，/*过滤视频/音频(Adblock Plus)…*/
+/*#abp-image-menuitem,/*过滤图片(Adblock Plus)…*/
+{ display: none !important; }
+
+/* 标签栏右键菜单 */
+/*#tabContextMenu > menuseparator:nth-child(3),/*分割线1*/
+#tabContextMenu > menuseparator:nth-child(6),/*分割线2*/
+#tabContextMenu > menuseparator:nth-child(17),/*分割线3*/
+#context_pinTab,/*固定为应用程序标签页*/
+#context_openTabInWindow,/*移动到新窗口*/
+#context_reloadAllTabs,/*重新载入全部标签页*/
+#context_bookmarkAllTabs,/*将全部标签页加为书签*/
+#context_undoCloseTab,/*恢复关闭的标签页*/
+#menu_restoreAllTabs/*还原所有标签页*/
+{ display: none !important; }
+#appmenu_help, /* 帮助 */
+/*#appmenu_openHelp,/*Firefox帮助*/
+/*#appmenu_gettingStarted, /*新手上路*/
+/*#appmenu_troubleshootingInfo,/*疑难解答信息*/
+/*#appmenu_feedbackPage,/*提交反馈*/
+/*#appmenu_helpMenupopup > menuseparator:nth-child(5),/*分割线1*/
+/*#appmenu_safeMode,/*重新启动并禁用附加组件*/
+/*#appmenu_helpMenupopup > menuseparator:nth-child(7),/*分割线2*/
+/*#appmenu_about,/*关于火狐*/
+#appmenu-split/* 末尾分割线 */
+{ display: none !important; }
+
+/* 书签菜单 */
+/*#bookmarksMenu, /* 书签菜单整体选项 */
+/*#bookmarksShowAll,/*显示所有书签*/
+#organizeBookmarksSeparator,/*分割线1*/
+#menu_bookmarkThisPage,/*此页加为书签*/
+#subscribeToPageMenuitem,/*订阅此页*/
+#subscribeToPageMenupopup,/*将所有标签页加为书签*/
+#menu_bookmarkAllTabs,/*打开全部书签*/
+/*#bookmarksToolbarSeparator,/*分割线2*/
+/*#bookmarksToolbarFolderMenu,/*书签工具栏*/
+/*#bookmarksMenuItemsSeparator,/*分割线3*/
+#bookmarksMenuPopup > menuseparator:nth-child(10),/*分割线4*/
+#bookmarksMenuPopup > menuseparator:nth-child(11)/*分割线5*/
+/*#menu_unsortedBookmarks/*未分类书签*/
+{ display: none !important; }
+
+/* 文件菜单 */
+#file-menu,/*文件菜单选项 */
+/*#menu_FilePopup, /*文件菜单整体选项 */
+/*#menu_newNavigatorTab,/*新建标签页*/
+#menu_newNavigator,/*新建窗口*/
+#menu_openLocation,/*打开本地*/
+/*#menu_openFile,/*打开文件*/
+#menu_close,/*关闭标签页*/
+#menu_closeWindow,/*关闭窗口*/
+/*#menu_FilePopup > menuseparator:nth-child(7),/*分割线1*/
+#menu_savePage,/*页面另存为*/
+#menu_sendLink,/*发送链接*/
+#menu_FilePopup > menuseparator:nth-child(10),/*分割线2*/
+#menu_printSetup,/*打印设置*/
+#menu_printPreview,/*打印预览*/
+#menu_print,/*打印*/
+#menu_FilePopup > menuseparator:nth-child(14),/*分割线3*/
+/*#menu_import,/*导入*/
+#menu_FilePopup > menuseparator:nth-child(16),/*分割线4*/
+/*#goOfflineMenuitem,/*脱机工作*/
+#menu_FileQuitItem/*退出*/
+{ display: none !important; }
+
+/* 查看菜单 */
+/*#view-menu, /*查看菜单整体选项*/
+/*#viewToolbarsMenu, /*工具栏*/
+/*#toggle_toolbar-menubar, /*菜单栏*/
+/*#toggle_nav-bar, /*导航工具栏*/
+/*#toggle_PersonalToolbar, /*书签工具栏*/
+/*#toggle_addon-bar, /*附加组件工具栏*/
+#viewToolbarsMenu > menupopup > menuitem:nth-child(5), /*All-In-One Sidebar工具栏*/
+/*#viewToolbarsMenu > menupopup > menuseparator:nth-child(6), /*分割线1*/
+/*#menu_tabsOnTop, /*标签页置顶*/
+/*#viewToolbarsMenu > menupopup > menuseparator:nth-child(8), /*分割线2*/
+/*#menu_customizeToolbars, /*定制*/
+/*#viewSidebarMenuMenu, /*侧栏*/
+/*#menu_bookmarksSidebar,/*书签*/
+/*#menu_historySidebar,/*历史*/
+/*#bookmarks_sep, /*分割线1*/
+/*#downloads-mitem, /*下载*/
+/*#addons-mitem, /*附加组件*/
+/*#viewSidebarMenu > menuseparator:nth-child(6), /*分割线2*/
+/*#multipanel-mitem, /*多用面板*/
+/*#pageinfo-mitem, /*页面信息*/
+/*#console-mitem, JavaScript /*控制台*/
+/*#aios-sidebar-mitem-sep1, /*分割线3*/
+/*#stylish-view-sidebar, /*Stylish*/
+/*#aios-sidebar-mitem-sep0, /*分割线4*/
+/*#aios-sidebar-mitem-paneltab1, /*打开侧栏*/
+/*#aios-sidebar-mitem-paneltab2, /*打开侧栏*/
+/*#aios-sidebar-mitem-show, /*打开侧栏*/
+/*#aios-sidebar-mitem-hide, /*打开侧栏*/
+/*#aios-sidebar-mitem-prefs, /*打开侧栏*/
+#abp-blockableitems,/*Adblock Plus：/*可过滤项目*/
+/*#menu_viewPopup > menuitem:nth-child(4), /*侧栏切换柄*/
+#menu_viewPopup > menuseparator:nth-child(5), /*分割线1*/
+/*#menu_viewPopup > menuitem:nth-child(6), /*侧栏控制柄*/
+#menu_stop,/*停止*/
+#menu_reload,/*重新载入*/
+#menu_viewPopup > menuseparator:nth-child(9), /*分割线2*/
+/*#viewFullZoomMenu,/*缩放*/
+/*#menu_zoomEnlarge,/*放大*/
+/*#menu_zoomReduce,/*缩小*/
+/*#viewFullZoomMenu > menupopup > menuseparator:nth-child(3),/*分割线1*/
+/*#menu_zoomReset,/*重置*/
+/*#viewFullZoomMenu > menupopup > menuseparator:nth-child(5),/*分割线2*/
+/*#toggle_zoom,/*仅缩放文本*/
+/*#pageStyleMenu,/*页面风格*/
+/*#menu_pageStyleNoStyle,/*无风格*/
+/*#menu_pageStylePersistentOnly,/*基本页面风格*/
+/*#pageStyleMenu > menupopup > menuseparator,/*分割线*/
+
+/*#charsetMenu,/*字符编码*/
+/*#menu_viewPopup > menuseparator:nth-child(13),/*分割线3*/
+/*#fullScreenItem,/*全屏*/
+/*#menu_showAllTabs,/*显示全部标签页*/
+#documentDirection-separator,/*分割线4*/
+#documentDirection-swap
+{ display: none !important; }
+
+/*工具菜单*/
+/*#tools-menu, /*工具菜单整体选项*/
+#menu_search, /*网页搜索*/
+#browserToolsSeparator, /*分割线1*/
+#menu_openDownloads, /*下载*/
+#menu_openAddons, /*附加组件*/
+#sync-setup, /*设置同步*/
+#sync-syncnowitem, /*同步*/
+#devToolsSeparator, /*分割线2*/
+#autopager-menu, /*自动翻页*/
+#webDeveloperMenu, /*Web 开发者*/
+#menu_pageInfo,/*页面信息*/
+#sanitizeSeparator, /*分割线3*/
+/*#privateBrowsingItem,/*进入隐私浏览模式*/
+/*#sanitizeItem, /*清空最近浏览记录*/
+#batchdownload-toolsmenu, /*批量下载设置*/
+/*#prefSep, /*分割线4*/
+#menu_tuOptions, /*Tab Untilties选项*/
+/*#menu_preferences, /*选项*/
+#abp-menuitem, /*Adblock Plus...*/
+/*#gm_general_menu, /*Greasemonkey*/
+#menueditor-options-fx
+{ display: none !important; }
+
+/*帮助菜单*/
+/*#helpMenu, /*帮助菜单整体选项*/
+#menu_openHelp,/*Firefox帮助*/
+#troubleShooting,/*疑难解答信息*/
+#feedbackPage,/*提交反馈*/
+/*#helpSafeMode,/*重新启动并禁用附加组件*/
+/*#menu_HelpPopup > menuseparator:nth-child(5),/*分割线1*/
+#menu_HelpPopup_reportPhishingtoolmenu/*报告欺诈网站*/
+/*#menu_HelpPopup_reportPhishingErrortoolmenu,/*这不是欺诈网站*/
+#aboutSeparator/*分割线2*/
+/*#aboutName/*关于火狐*/
+{ display: none !important; }
+
+/* 左侧栏 */
+#appmenu_newTab, /*新建标签页*/
+#appmenu_newTab > menupopup > menuseparator,/*新建标签页子菜单分割线*/
+#appmenu_privateBrowsing, /* 进入隐私模式 */
+#appmenu_offlineModeRecovery, /* 脱机工作 */
+#appmenuPrimaryPane > menuseparator:nth-child(4),/* 分割线 */
+#appmenuPrimaryPane > hbox,/* 编辑菜单上级版面 */
+#appmenu-edit-label, /* 编辑 */
+#appmenu-cut, /* 剪切 */
+#appmenu-copy, /* 复制 */
+#appmenu-paste, /* 粘贴 */
+#appmenuPrimaryPane > hbox > spacer, /* 空白 */
+#appmenu-editmenu,/* 编辑菜单 */
+#appmenu_find, /* 查找 */
+#appmenuPrimaryPane > menuseparator:nth-child(7),/* 分割线 */
+#appmenu_savePage, /* 页面另存为 */
+#appmenu_sendLink, /* 发送页面 */
+#appmenu_print, /* 打印 */
+#appmenuPrimaryPane > menuseparator:nth-child(11),/* 分割线 */
+#appmenu_webDeveloper, /* Web开发人员 */
+#appmenuPrimaryPane > menuseparator:nth-child(13),/* 分割线 */
+#appmenu_fullScreen, /* 全屏 */
+#sync-setup-appmenu,/* 设置同步 */
+#sync-syncnowitem-appmenu, /* 同步 */
+#appmenu-quit, /* 退出 */
+/*#javascriptConsole, /*通过脚本添加的错误控制台 */
+/*#sanitizeItem, /*通过脚本添加的清空最近历史记录 */
+
+/* 右侧栏 */
+#appmenu_bookmarks, /*书签 */
+#appmenu_history, /* 历史 */
+#appmenu_downloads, /* 下载 */
+#appmenuSecondaryPane-spacer, /* 右侧栏空白 */
+#appmenu_addons, /* 附加组件 */
+#appmenu_customize, /*选项 */
+/*#appmenu_preferences,/*选项 */
+/*#appmenu_customizeMenu > menuseparator:nth-child(2),/* 分割线1 */
+/*#toggle_toolbar-menubar,/* 菜单栏 */
+/*#toggle_nav-bar,/* 导航工具栏 */
+/*#toggle_PersonalToolbar,/* 书签工具栏 */
+/*#toggle_addon-bar,/* 附加组件栏 */
+/*#appmenu_customizeMenu > menuseparator:nth-child(7),/* 分割线2 */
+/*#appmenu_toggleTabsOnTop,/* 标签页置顶 */
+/*#appmenu_toolbarLayout,/* 工具栏布局 */
