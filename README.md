@@ -68,8 +68,9 @@ userChrome.css和userContent.css也是在这里，两个文件默认没有，需
 列几个样式获取途径：
 
 - [FirefoxCSS Store](https://firefoxcss-store.github.io/): 已3年未增录，但其中主题有二三十个。每个主题有不同的作者，他们会更新
-- [FirefoxCSS on Reddit](https://www.reddit.com/r/FirefoxCSS/?rdt=37190&onetap_auto=true&one_tap=true)：Reddit上的一个社区，汇聚了大量的FirefoxCSS爱好者
 - [firefox-csshacks](https://github.com/MrOtherGuy/firefox-csshacks)：[MrOtherGuy](https://github.com/MrOtherGuy)收集的一些userstyle，还在持续更新
+- [FirefoxCSS on Reddit](https://www.reddit.com/r/FirefoxCSS/?rdt=37190&onetap_auto=true&one_tap=true)：Reddit上的一个社区，汇聚了大量的FirefoxCSS爱好者
+
 - GitHub Topics：[firefoxcss ](https://github.com/topics/firefoxcss)或[userchrome](https://github.com/topics/userchrome)之类的
 - 另有针对特定网站的样式，可搭配样式扩展[Stylus](https://github.com/openstyles/stylus/)使用，网站[UserStyles.world](https://userstyles.world/explore) 或[UserStyles.org Archive](https://uso.kkx.one/)，更多内容可见[奶大的文章](https://www.runningcheese.com/userstyles)
 ## 进阶：自定义用户脚本
