@@ -4,7 +4,18 @@
 
 算了，还是回归谷歌一系吧
 
+2024.11.3
 
+留存资料：
+
+pyllyukko/user.js: user.js -- Firefox configuration hardening
+https://github.com/pyllyukko/user.js
+
+benzBrake/FirefoxCustomize: Ryan 收集的 Firefox 个性化相关资源
+https://github.com/benzBrake/FirefoxCustomize
+
+xiaoxiaoflood/firefox-scripts: userChromeJS / autoconfig.js and extensions
+https://github.com/xiaoxiaoflood/firefox-scripts
 
 ----
 
